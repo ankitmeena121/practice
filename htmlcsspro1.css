@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+.nav {
+   background-color: #00b894;
+   height:50px;
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   
+}
+/* .logo {
+    height: 10px;
+    width: 10px;
+} */
+body {
+    font-family: "Roboto Slab";
+}
+
+.menu li {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+.icon {
+     width: 100px;
+     display: flex;
+     justify-content: space-between;
+     color: #d63031;
+     cursor: pointer;
+
+}
+/* ....hero */
+.hero {
+    background-image:url(photos/foods\ \(2\).jpg);
+    height:90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero > h1 {
+    font-size: 50px;
+    color: rgb(245, 245, 7);
+}
+.hero p {
+    font-size: 20px;
+    color: rgb(248, 247, 243);
+}
+button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(red,yellow,green);
+
+}
+
+/* about  */
+.about {
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.abo {
+    background-color: rgb(16, 240, 184);
+    text-align: center;
+}
+.ab1 {
+    width: 50%;
+    background-image: url(photos/foods\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ab2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.ab2 >h2 {
+    text-align: center;
+    background-color: #fd79a8;
+    color: azure;
+
+}
+.inabout {
+  margin-top: 2px;
+  background-image: url(photos/foods\ \(3\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98%;
+  /* width:auto; */
+}
+.inabout:hover {
+    box-shadow: 5px 5px 5px rgb(236, 108, 10);
+
+}
+
+/* MENU FOOD */
+.menuhead {
+    margin: 2px;
+    text-align: center;
+    background-color: #eb2f06;
+    color: whitesmoke;
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    width: 100%;
+}
+.dada {
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column
+}
+.div1{
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.photo1 {
+    background-image: url(photos/paneer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width:auto;
+}
+.div2{
+    height: 200px; 
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.photo2 {
+    background-image: url(photos/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+.div3{
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.photo3 {
+    background-image: url(photos/juice.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: auto;
+}
+.details {
+    background-color: #f8c291;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    flex-wrap: wrap;
+
+}
+.order-btn {
+    text-decoration: none;
+    background-color: #1e3799;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+/* form */
+.conta {
+    background-color: #00b894;
+    text-align: center;
+    margin: 2px 0px;
+    height: 40px;
+}
+.farm {
+    align-items: center;
+    background-color: #82ccdd;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+}
+input {
+    padding: 5px;
+    border-radius: 3px;
+}
+.btn1 {
+    margin-left: 110px;
+    background-color: #16f306;
+    color:black;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
